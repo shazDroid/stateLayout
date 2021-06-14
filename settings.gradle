@@ -1,0 +1,3 @@
+rootProject.name = "ShazStateLayout"
+include ':app'
+include ':stateLayout'
