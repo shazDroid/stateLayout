@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="retry">Retry</string>
+    <string name="common_error_text">Oops something went wrong...</string>
+    <string name="no_data_found">No data found</string>
+</resources>

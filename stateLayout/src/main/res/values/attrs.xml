@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StateLayout">
+        <attr name="state_backgroundColor" format="color" />
+        <attr name="state_textColor" format="color" />
+    </declare-styleable>
+</resources>

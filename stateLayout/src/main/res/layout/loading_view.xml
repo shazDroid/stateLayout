@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <!--Loading view-->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/loadingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loadingLottieView"
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/loading_truck_anim"
+            app:lottie_scale="50" />
+
+        <TextView
+            android:id="@+id/loadingTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="Please wait loading..."
+            android:textColor="@color/text_color_light"
+            android:textSize="16sp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <!--Loading view end-->
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
