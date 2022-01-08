@@ -1,6 +1,6 @@
 <!-- logo -->
 <p align="center">
-  <img width='300' src="img/logo-and-text.svg">
+  <img width='300' src="shazdroid_logo.png">
 </p>
 
 <!-- tag line -->
