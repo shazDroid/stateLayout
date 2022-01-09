@@ -13,7 +13,11 @@ class MainActivity : AppCompatActivity() {
         val stateLayout = findViewById<StateLayout>(R.id.stateLayout)
 
 
+
+
+
         findViewById<Button>(R.id.loadingBtn).setOnClickListener {
+            stateLayout.requestFocus()
             stateLayout.showLoadingView()
         }
 
