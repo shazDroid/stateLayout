@@ -325,15 +325,17 @@ class StateLayout : LinearLayoutCompat {
                 return true
             } else if (currentVisibleView == State.ERROR) {
                 showViewType(State.CONTENT)
-                return false
+                return true
             } else if (currentVisibleView == State.EMPTY_LIST) {
                 showViewType(State.CONTENT)
-                return false
+                return true
+            } else if (currentVisibleView == State.CONTENT) {
+                super.dispatchKeyEventPreIme(event)
+            } else {
+                return super.dispatchKeyEventPreIme(event)
             }
-        } else {
-            return true
         }
-        return true
+        return super.dispatchKeyEventPreIme(event)
     }
 
 
