@@ -95,7 +95,7 @@ app:state_textColor="@color/black"
 ## Installation
 ```gradle
 dependencies {
-   implementation 'com.github.shazDroid:stateLayout:0.1.2'
+   implementation 'com.github.shazDroid:stateLayout:0.1.3'
 }
 ```
 <br/>
